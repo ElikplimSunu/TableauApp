@@ -1,12 +1,9 @@
 package com.sunueric.tableauapp.ui.viewmodels
 
-import android.content.Context
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import androidx.security.crypto.EncryptedSharedPreferences
-import androidx.security.crypto.MasterKey
 import com.sunueric.tableauapp.network.AuthService
 import kotlinx.coroutines.launch
 
